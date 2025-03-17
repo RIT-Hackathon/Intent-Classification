@@ -1,0 +1,2001 @@
+query,intent,entities
+Need a MRI scheduled on 15th March.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'on 15th March'}"
+Cancel my blood test scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my ECG report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+I want to book a ultrasound appointment on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my ultrasound report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+Need a MRI scheduled this Friday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'this Friday'}"
+I need to cancel my ultrasound on this Friday.,cancel_test,{'TIME': 'this Friday'}
+What does my MRI report say?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my MRI report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+Please arrange a blood test test day after tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'day after tomorrow'}"
+I won't be available for my blood test test next month.,cancel_test,{'TIME': 'next month'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ultrasound report for last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Can I get a ECG day after tomorrow?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+I won't be available for my blood test test today.,cancel_test,{'TIME': 'today'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+I want to book a X-ray appointment today.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'today'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+I want to upload my CT scan report.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my ultrasound report.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+Need a MRI scheduled today.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'today'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my CT scan report from last month.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Can I get a CT scan tomorrow?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+Can you cancel my test last Monday?,cancel_test,{'TIME': 'last Monday'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my ultrasound report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+I want to book a X-ray appointment this Friday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'this Friday'}"
+Cancel my blood test scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my X-ray report from last month.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last month'}"
+I need a blood test on today.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'today'}"
+I need to cancel my CT scan on last Monday.,cancel_test,{'TIME': 'last Monday'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my ultrasound report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Schedule a blood test for next week.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next week'}"
+Cancel my MRI scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my ECG report from last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+I want to book a blood test appointment on 15th March.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'on 15th March'}"
+Cancel my ECG scheduled next month.,cancel_test,{'TIME': 'next month'}
+Check my CT scan report and provide feedback.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my ultrasound report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+Need a CT scan scheduled day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+I want to upload my CT scan report.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my ultrasound report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Please arrange a MRI test day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+I need to cancel my ultrasound on next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my ECG report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+Can I get a blood test last Monday?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'last Monday'}"
+I need to cancel my blood test on next month.,cancel_test,{'TIME': 'next month'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+Need a CT scan scheduled today.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'today'}"
+Cancel my MRI scheduled next month.,cancel_test,{'TIME': 'next month'}
+Give me insights on my ultrasound report.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my MRI report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+I need a ECG on today.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'today'}"
+I need to cancel my ultrasound on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my CT scan report to my records.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Retrieve my ECG report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I need a CT scan on last Monday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Interpret my X-ray report results.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my blood report from last week?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Can I get a ultrasound this Friday?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'this Friday'}"
+I need to cancel my ultrasound on next week.,cancel_test,{'TIME': 'next week'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Need a CT scan scheduled last Monday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+I won't be available for my ECG test this Friday.,cancel_test,{'TIME': 'this Friday'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my ultrasound report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+I need a blood test on next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+I won't be available for my X-ray test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my CT scan report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+I want to book a blood test appointment last Monday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'last Monday'}"
+Can you cancel my test on 15th March?,cancel_test,{'TIME': 'on 15th March'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Retrieve my ultrasound report for last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+I want to book a blood test appointment next week.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next week'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my ultrasound report from last week.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+Need a ECG scheduled last Monday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'last Monday'}"
+Cancel my MRI scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my ultrasound report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+I want to book a ECG appointment day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+I need to cancel my ultrasound on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Interpret my X-ray report results.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my ECG report for last week.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+Need a CT scan scheduled this Friday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'this Friday'}"
+I won't be available for my MRI test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my X-ray report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Schedule a blood test for next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+Cancel my X-ray scheduled today.,cancel_test,{'TIME': 'today'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my ultrasound report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+I need a blood test on day after tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'day after tomorrow'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my CT scan report for last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Please arrange a MRI test next week.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next week'}"
+I won't be available for my CT scan test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my ultrasound report.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Schedule a ECG for next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+Interpret my X-ray report results.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my ECG report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+Need a ECG scheduled next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Can you cancel my test next week?,cancel_test,{'TIME': 'next week'}
+What does my MRI report say?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my ultrasound report.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my MRI report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on 10th February'}"
+I want to book a blood test appointment next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+Cancel my CT scan scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my CT scan report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+Please arrange a CT scan test day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+Please remove my appointment next week.,cancel_test,{'TIME': 'next week'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my CT scan report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+Schedule a CT scan for this Friday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'this Friday'}"
+I need to cancel my X-ray on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my CT scan report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+Please arrange a CT scan test last Monday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+Can you cancel my test today?,cancel_test,{'TIME': 'today'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my ultrasound report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+I want to book a ultrasound appointment on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+Can you cancel my test on 15th March?,cancel_test,{'TIME': 'on 15th March'}
+Check my CT scan report and provide feedback.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+I want to book a CT scan appointment this Friday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'this Friday'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my ECG report.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my ultrasound report.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my ECG report for last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+Schedule a ECG for next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Cancel my ECG scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ultrasound report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+Need a X-ray scheduled next month.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+Cancel my ultrasound scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my ECG report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+Can I get a ultrasound on 15th March?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Find my MRI report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+Can I get a MRI tomorrow?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+Cancel my X-ray scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my MRI report from last week?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Can I get a X-ray next week?,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next week'}"
+I need to cancel my MRI on last Monday.,cancel_test,{'TIME': 'last Monday'}
+What does my blood report say?,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my MRI report for last month.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last month'}"
+Can I get a ultrasound today?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+I won't be available for my ultrasound test last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my MRI report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+I want to book a X-ray appointment next month.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+Can you cancel my test last Monday?,cancel_test,{'TIME': 'last Monday'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Find my ultrasound report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+I need a X-ray on on 15th March.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'on 15th March'}"
+I need to cancel my ultrasound on this Friday.,cancel_test,{'TIME': 'this Friday'}
+What does my blood report say?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my ultrasound report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+I want to book a ultrasound appointment tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+Please remove my appointment today.,cancel_test,{'TIME': 'today'}
+What does my blood report say?,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my blood report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Schedule a blood test for next week.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next week'}"
+I need to cancel my ECG on today.,cancel_test,{'TIME': 'today'}
+Check my ultrasound report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my CT scan report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Please arrange a CT scan test next week.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next week'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my ultrasound report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+I want to book a blood test appointment on 15th March.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'on 15th March'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading ECG report, please process it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my ultrasound report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+I want to book a MRI appointment next week.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next week'}"
+Can you cancel my test last Monday?,cancel_test,{'TIME': 'last Monday'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my CT scan report from last month?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Need a CT scan scheduled day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+I need to cancel my MRI on this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Please arrange a MRI test next week.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next week'}"
+I need to cancel my blood test on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my X-ray report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+I want to book a X-ray appointment this Friday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'this Friday'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my CT scan report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Schedule a CT scan for next week.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next week'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my MRI report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+Need a ECG scheduled on 15th March.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'on 15th March'}"
+I won't be available for my blood test test today.,cancel_test,{'TIME': 'today'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Find my MRI report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on 10th February'}"
+Please arrange a X-ray test tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'tomorrow'}"
+I need to cancel my ultrasound on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Need a ECG scheduled last Monday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'last Monday'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my blood report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+Can I get a CT scan next week?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next week'}"
+Cancel my MRI scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my ultrasound report from last month?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Need a CT scan scheduled on 15th March.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'on 15th March'}"
+Please remove my appointment next week.,cancel_test,{'TIME': 'next week'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my ultrasound report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+I need a blood test on on 15th March.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'on 15th March'}"
+Please remove my appointment today.,cancel_test,{'TIME': 'today'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+I need my blood report from last month.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Need a CT scan scheduled today.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'today'}"
+Can you cancel my test last Monday?,cancel_test,{'TIME': 'last Monday'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+I want to book a MRI appointment last Monday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+Cancel my ECG scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my X-ray report for last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Need a blood test scheduled on 15th March.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'on 15th March'}"
+I need to cancel my ultrasound on next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my ultrasound report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+I want to book a CT scan appointment day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my MRI report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+Need a ECG scheduled on 15th March.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'on 15th March'}"
+Cancel my ECG scheduled last Monday.,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my MRI report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+I want to book a ECG appointment next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+I won't be available for my CT scan test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my ECG report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+Need a blood test scheduled today.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'today'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my ultrasound report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+Schedule a blood test for on 15th March.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'on 15th March'}"
+Please remove my appointment next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my blood report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Can I get a ECG next month?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+I need to cancel my MRI on next week.,cancel_test,{'TIME': 'next week'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my ultrasound report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+Need a X-ray scheduled day after tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'day after tomorrow'}"
+I need to cancel my ECG on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my CT scan report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Need a X-ray scheduled last Monday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'last Monday'}"
+Cancel my CT scan scheduled today.,cancel_test,{'TIME': 'today'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Schedule a blood test for day after tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'day after tomorrow'}"
+Cancel my ECG scheduled today.,cancel_test,{'TIME': 'today'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my ultrasound report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Need a CT scan scheduled today.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'today'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+What does my MRI report say?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Need a MRI scheduled next month.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next month'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+I need a ECG on today.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'today'}"
+I won't be available for my MRI test today.,cancel_test,{'TIME': 'today'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Schedule a ECG for next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+What does my blood report say?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Find my blood report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Schedule a blood test for next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+Cancel my CT scan scheduled next month.,cancel_test,{'TIME': 'next month'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my X-ray report from last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Please arrange a ultrasound test next month.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'next month'}"
+I won't be available for my ultrasound test next month.,cancel_test,{'TIME': 'next month'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my blood report from last week?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Can I get a ECG next week?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next week'}"
+I need to cancel my blood test on this Friday.,cancel_test,{'TIME': 'this Friday'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my MRI report for last week.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Schedule a MRI for today.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'today'}"
+I won't be available for my ECG test next month.,cancel_test,{'TIME': 'next month'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my blood report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+Need a ECG scheduled on 15th March.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'on 15th March'}"
+I need to cancel my CT scan on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my ECG report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+Schedule a blood test for next week.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next week'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Find my blood report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+Schedule a blood test for tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'tomorrow'}"
+I need to cancel my CT scan on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my ultrasound report.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I want to book a X-ray appointment tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'tomorrow'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my ultrasound report.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my CT scan report from last week?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+I want to book a MRI appointment last Monday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+Cancel my MRI scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my ECG report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+I need a ECG on day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+Cancel my X-ray scheduled next week.,cancel_test,{'TIME': 'next week'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my ECG report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+I want to book a blood test appointment last Monday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'last Monday'}"
+I need to cancel my X-ray on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+Need a X-ray scheduled next month.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+I won't be available for my CT scan test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my ultrasound report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Schedule a X-ray for next month.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+Cancel my blood test scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my ultrasound report.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my ultrasound report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+Schedule a ultrasound for last Monday.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'last Monday'}"
+Cancel my ultrasound scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my X-ray report from last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Can I get a ultrasound next week?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'next week'}"
+I need to cancel my ultrasound on last Monday.,cancel_test,{'TIME': 'last Monday'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my ultrasound report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+I need a X-ray on next week.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next week'}"
+Cancel my MRI scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading ECG report, please process it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+Schedule a ultrasound for day after tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'day after tomorrow'}"
+Cancel my ECG scheduled next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I want to book a blood test appointment next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+I need to cancel my ultrasound on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my ECG report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+Need a X-ray scheduled this Friday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'this Friday'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my blood report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+I want to book a MRI appointment tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+I need to cancel my CT scan on today.,cancel_test,{'TIME': 'today'}
+Check my ultrasound report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my ultrasound report.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+Please arrange a blood test test tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'tomorrow'}"
+I need to cancel my ultrasound on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+Please arrange a X-ray test on 15th March.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'on 15th March'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+I want to book a CT scan appointment today.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'today'}"
+Cancel my ultrasound scheduled next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my ultrasound report.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my CT scan report from last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Can I get a ultrasound tomorrow?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+I won't be available for my MRI test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my X-ray report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Can I get a ECG this Friday?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'this Friday'}"
+I won't be available for my ECG test this Friday.,cancel_test,{'TIME': 'this Friday'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my MRI report for last month.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last month'}"
+I need a ultrasound on day after tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'day after tomorrow'}"
+I need to cancel my ECG on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my CT scan report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+Need a ultrasound scheduled next month.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'next month'}"
+Cancel my MRI scheduled today.,cancel_test,{'TIME': 'today'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my ultrasound report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+I need a ultrasound on tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+Cancel my blood test scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my MRI report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on 10th February'}"
+Need a ultrasound scheduled next week.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'next week'}"
+Please remove my appointment day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my ECG report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I want to book a ultrasound appointment today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+Can you cancel my test next week?,cancel_test,{'TIME': 'next week'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my ultrasound report from last week.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+I want to book a CT scan appointment tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+I won't be available for my blood test test next week.,cancel_test,{'TIME': 'next week'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my blood report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on 10th February'}"
+I need a X-ray on this Friday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'this Friday'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+Check my ultrasound report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Need a MRI scheduled day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+I won't be available for my X-ray test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my blood report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Can I get a MRI this Friday?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'this Friday'}"
+Can you cancel my test on 15th March?,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my X-ray report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+I need a MRI on day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+I need to cancel my X-ray on next month.,cancel_test,{'TIME': 'next month'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Find my CT scan report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+Can I get a blood test tomorrow?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'tomorrow'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my ultrasound report.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Can I get a CT scan on 15th March?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'on 15th March'}"
+Can you cancel my test today?,cancel_test,{'TIME': 'today'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my ultrasound report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+Schedule a MRI for last Monday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+I won't be available for my CT scan test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Find my CT scan report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+I need a ultrasound on tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+I won't be available for my MRI test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Retrieve my blood report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+I need a X-ray on this Friday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'this Friday'}"
+I won't be available for my blood test test this Friday.,cancel_test,{'TIME': 'this Friday'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+Schedule a CT scan for today.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'today'}"
+I won't be available for my ultrasound test this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my blood report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+Can I get a MRI on 15th March?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'on 15th March'}"
+Cancel my ECG scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my blood report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Need a blood test scheduled next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+Please remove my appointment day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Interpret my X-ray report results.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my MRI report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+I need a ultrasound on this Friday.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'this Friday'}"
+I won't be available for my X-ray test this Friday.,cancel_test,{'TIME': 'this Friday'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last month'}"
+Can I get a MRI day after tomorrow?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my MRI report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+I need a X-ray on next week.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next week'}"
+I won't be available for my ultrasound test next month.,cancel_test,{'TIME': 'next month'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my X-ray report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+I need a blood test on next week.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next week'}"
+I need to cancel my ECG on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my X-ray report from last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+I want to book a blood test appointment next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+I need to cancel my blood test on this Friday.,cancel_test,{'TIME': 'this Friday'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my blood report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Please arrange a X-ray test day after tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'day after tomorrow'}"
+I need to cancel my blood test on today.,cancel_test,{'TIME': 'today'}
+Check my CT scan report and provide feedback.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+Please arrange a CT scan test tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my CT scan report from last week?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Need a ultrasound scheduled on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+Can you cancel my test today?,cancel_test,{'TIME': 'today'}
+Check my CT scan report and provide feedback.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+I want to book a MRI appointment next month.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next month'}"
+Can you cancel my test on 15th March?,cancel_test,{'TIME': 'on 15th March'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my CT scan report from last month?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Please arrange a CT scan test tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+Please remove my appointment today.,cancel_test,{'TIME': 'today'}
+What does my blood report say?,analyze_report,{'REPORT_TYPE': 'blood report'}
+I want to upload my CT scan report.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my MRI report from last week?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Schedule a ECG for day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+I need to cancel my X-ray on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my X-ray report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+Schedule a CT scan for day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+I won't be available for my blood test test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my CT scan report and provide feedback.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+Can I get a blood test last Monday?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'last Monday'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my blood report from last week?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Can I get a CT scan today?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'today'}"
+Cancel my ECG scheduled tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my CT scan report to my records.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my ultrasound report from last week.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+Can I get a ultrasound today?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+I won't be available for my X-ray test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Check my ultrasound report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my CT scan report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+Can I get a ECG day after tomorrow?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+I need to cancel my MRI on next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Can I get a blood test tomorrow?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'tomorrow'}"
+I won't be available for my blood test test last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my CT scan report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Need a blood test scheduled next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+I need to cancel my MRI on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my blood report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+Can I get a ultrasound last Monday?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'last Monday'}"
+I need to cancel my ultrasound on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading ECG report, please process it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my X-ray report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+I need a MRI on day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+Cancel my MRI scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my ECG report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+Please arrange a ultrasound test tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+Cancel my ultrasound scheduled next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my ultrasound report.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+I need my X-ray report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+Need a ultrasound scheduled on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+Cancel my MRI scheduled next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my ECG report.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my CT scan report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+Schedule a CT scan for day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my CT scan report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Please arrange a ECG test next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+I won't be available for my ultrasound test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my X-ray report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Please arrange a ultrasound test tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+Please arrange a ultrasound test day after tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'day after tomorrow'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+What does my MRI report say?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my ultrasound report from last week?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+Can I get a ECG tomorrow?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'tomorrow'}"
+I need to cancel my blood test on next week.,cancel_test,{'TIME': 'next week'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my CT scan report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Schedule a blood test for this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+Cancel my ultrasound scheduled last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my CT scan report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Schedule a blood test for this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+Cancel my blood test scheduled tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+I need my X-ray report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Please arrange a ECG test on 15th March.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'on 15th March'}"
+I need to cancel my CT scan on next month.,cancel_test,{'TIME': 'next month'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my ultrasound report from last month?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Can I get a MRI last Monday?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+I need to cancel my X-ray on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my ECG report from last month?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+I need a X-ray on day after tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'day after tomorrow'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+I need my MRI report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+Can I get a CT scan today?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'today'}"
+I won't be available for my X-ray test this Friday.,cancel_test,{'TIME': 'this Friday'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my blood report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+I want to book a CT scan appointment this Friday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'this Friday'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my CT scan report from last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Schedule a X-ray for tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'tomorrow'}"
+I need to cancel my X-ray on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my CT scan report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+I want to book a ECG appointment day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+I won't be available for my X-ray test next week.,cancel_test,{'TIME': 'next week'}
+What does my MRI report say?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my CT scan report from last month.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Can I get a X-ray day after tomorrow?,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'day after tomorrow'}"
+I won't be available for my CT scan test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my X-ray report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+Schedule a ECG for last Monday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'last Monday'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my ECG report for last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+Need a blood test scheduled this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my CT scan report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+I need a MRI on day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my ECG report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+Schedule a MRI for next month.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next month'}"
+I need to cancel my X-ray on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my CT scan report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Schedule a ECG for today.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'today'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+Need a CT scan scheduled next week.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next week'}"
+Please remove my appointment today.,cancel_test,{'TIME': 'today'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my X-ray report from last month.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last month'}"
+I want to book a CT scan appointment next week.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next week'}"
+Cancel my X-ray scheduled next week.,cancel_test,{'TIME': 'next week'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my MRI report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on 10th February'}"
+Can I get a blood test this Friday?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my X-ray report from last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Can I get a ultrasound today?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+I need to cancel my CT scan on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my ultrasound report.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+I need a MRI on tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+I won't be available for my X-ray test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my ECG report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+Can I get a X-ray next month?,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my CT scan report to my records.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my ultrasound report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+I want to book a MRI appointment next month.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next month'}"
+I won't be available for my MRI test last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+Can I get a CT scan last Monday?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+Can you cancel my test on 15th March?,cancel_test,{'TIME': 'on 15th March'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+Schedule a X-ray for on 15th March.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'on 15th March'}"
+I need to cancel my blood test on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my ECG report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+Please arrange a X-ray test today.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'today'}"
+I won't be available for my blood test test next week.,cancel_test,{'TIME': 'next week'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my blood report for last week.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Please arrange a CT scan test last Monday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+I need to cancel my blood test on this Friday.,cancel_test,{'TIME': 'this Friday'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my ECG report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+I need a ECG on next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Cancel my ECG scheduled next month.,cancel_test,{'TIME': 'next month'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my CT scan report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+I want to book a X-ray appointment next month.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Find my X-ray report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+I want to book a ultrasound appointment tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+Cancel my CT scan scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my blood report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+Please arrange a MRI test today.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'today'}"
+Can you cancel my test last Monday?,cancel_test,{'TIME': 'last Monday'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my X-ray report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+I need a blood test on on 15th March.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'on 15th March'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+I need my blood report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+I want to book a ultrasound appointment tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+I won't be available for my ECG test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my MRI report from last month?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last month'}"
+I need a ultrasound on next week.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'next week'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+I need my ultrasound report from last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Can I get a ultrasound last Monday?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'last Monday'}"
+I need to cancel my ultrasound on today.,cancel_test,{'TIME': 'today'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Need a MRI scheduled tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+I won't be available for my ECG test next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my CT scan report.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my X-ray report from last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+I want to book a X-ray appointment last Monday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'last Monday'}"
+I need to cancel my CT scan on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last month'}"
+Please arrange a blood test test last Monday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'last Monday'}"
+I won't be available for my X-ray test last Monday.,cancel_test,{'TIME': 'last Monday'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+I want to book a MRI appointment day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+Cancel my MRI scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ultrasound report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Schedule a CT scan for tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+Cancel my ultrasound scheduled next week.,cancel_test,{'TIME': 'next week'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my CT scan report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+Please arrange a X-ray test tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'tomorrow'}"
+I need to cancel my ultrasound on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my ECG report from last week?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+I want to book a ultrasound appointment on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+Cancel my MRI scheduled today.,cancel_test,{'TIME': 'today'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+Schedule a MRI for last Monday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+I won't be available for my MRI test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Interpret my X-ray report results.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my CT scan report.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my MRI report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+Can I get a X-ray last Monday?,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'last Monday'}"
+Please remove my appointment today.,cancel_test,{'TIME': 'today'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ECG report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I want to book a CT scan appointment next month.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next month'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my CT scan report for last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+I need a ECG on next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Cancel my ECG scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Can I get a ECG tomorrow?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'tomorrow'}"
+I won't be available for my MRI test today.,cancel_test,{'TIME': 'today'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ultrasound report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+Need a ultrasound scheduled on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+I need to cancel my MRI on next week.,cancel_test,{'TIME': 'next week'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my MRI report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last month'}"
+Please arrange a MRI test this Friday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'this Friday'}"
+I won't be available for my ultrasound test next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ultrasound report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+I want to book a ultrasound appointment next week.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'next week'}"
+I won't be available for my CT scan test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my CT scan report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Can I get a X-ray this Friday?,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'this Friday'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my CT scan report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Schedule a MRI for day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+Can you cancel my test on 15th March?,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my ultrasound report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Schedule a CT scan for on 15th March.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'on 15th March'}"
+Please remove my appointment next week.,cancel_test,{'TIME': 'next week'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my ECG report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I want to book a blood test appointment tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'tomorrow'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last month'}"
+Please arrange a blood test test next week.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next week'}"
+Cancel my CT scan scheduled tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my MRI report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+I want to book a ultrasound appointment this Friday.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'this Friday'}"
+I need to cancel my blood test on next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my X-ray report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Schedule a blood test for day after tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'day after tomorrow'}"
+Cancel my ultrasound scheduled next month.,cancel_test,{'TIME': 'next month'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my CT scan report for last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Can I get a blood test last Monday?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'last Monday'}"
+Cancel my ultrasound scheduled next week.,cancel_test,{'TIME': 'next week'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my X-ray report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+Schedule a X-ray for today.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'today'}"
+I need to cancel my X-ray on next week.,cancel_test,{'TIME': 'next week'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my ECG report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+Schedule a ECG for last Monday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'last Monday'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my ECG report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+Need a X-ray scheduled last Monday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'last Monday'}"
+Cancel my ECG scheduled last Monday.,cancel_test,{'TIME': 'last Monday'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my CT scan report.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Retrieve my ultrasound report for last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Schedule a CT scan for next week.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next week'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my ECG report from last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+I need a X-ray on next month.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+I need to cancel my ultrasound on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my CT scan report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+Schedule a ECG for next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my X-ray report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+I need a CT scan on tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+Cancel my blood test scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+Schedule a ECG for day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my ECG report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+Please arrange a ECG test this Friday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'this Friday'}"
+I won't be available for my ECG test next month.,cancel_test,{'TIME': 'next month'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my X-ray report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+Need a MRI scheduled last Monday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+I need to cancel my X-ray on today.,cancel_test,{'TIME': 'today'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+Schedule a X-ray for next month.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+Can you cancel my test on 15th March?,cancel_test,{'TIME': 'on 15th March'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my blood report from last month.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+I need a ECG on day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my CT scan report to my records.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Find my ECG report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+I want to book a blood test appointment next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+I need to cancel my MRI on today.,cancel_test,{'TIME': 'today'}
+Interpret my X-ray report results.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my MRI report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on 10th February'}"
+I need a CT scan on this Friday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'this Friday'}"
+Please remove my appointment day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my MRI report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+I want to book a ECG appointment tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'tomorrow'}"
+Cancel my CT scan scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my CT scan report from last month?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Can I get a CT scan today?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'today'}"
+I need to cancel my blood test on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+I need my ultrasound report from last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Please arrange a CT scan test tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+I won't be available for my ECG test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Check my ultrasound report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ultrasound report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+I need a CT scan on tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ECG report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+Can I get a MRI today?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'today'}"
+Cancel my CT scan scheduled next week.,cancel_test,{'TIME': 'next week'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+Need a CT scan scheduled day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+I won't be available for my blood test test today.,cancel_test,{'TIME': 'today'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my ECG report for last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+I need a CT scan on next month.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next month'}"
+Please remove my appointment next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my ECG report from last week.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+Please arrange a ECG test next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+I won't be available for my ultrasound test today.,cancel_test,{'TIME': 'today'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+I want to book a blood test appointment today.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'today'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Check my ultrasound report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my CT scan report.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my CT scan report from last month.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Please arrange a CT scan test tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+Cancel my ECG scheduled today.,cancel_test,{'TIME': 'today'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Find my MRI report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Can I get a CT scan this Friday?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'this Friday'}"
+I need to cancel my MRI on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my blood report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+I want to book a ECG appointment last Monday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'last Monday'}"
+I won't be available for my CT scan test next month.,cancel_test,{'TIME': 'next month'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my ultrasound report from last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Please arrange a CT scan test on 15th March.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'on 15th March'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+I need my X-ray report from last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Can I get a MRI next week?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next week'}"
+Cancel my ECG scheduled last Monday.,cancel_test,{'TIME': 'last Monday'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my ECG report from last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+Please arrange a ECG test day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+Can you cancel my test last Monday?,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my MRI report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on 10th February'}"
+I want to book a CT scan appointment on 15th March.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'on 15th March'}"
+I won't be available for my blood test test next week.,cancel_test,{'TIME': 'next week'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ultrasound report for last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+I want to book a ultrasound appointment last Monday.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'last Monday'}"
+I won't be available for my CT scan test this Friday.,cancel_test,{'TIME': 'this Friday'}
+Check my ultrasound report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+I need my ultrasound report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Please arrange a X-ray test day after tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'day after tomorrow'}"
+I won't be available for my CT scan test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my X-ray report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Please arrange a ECG test tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'tomorrow'}"
+Cancel my ECG scheduled tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my ECG report.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my blood report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+Need a X-ray scheduled last Monday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'last Monday'}"
+Cancel my CT scan scheduled today.,cancel_test,{'TIME': 'today'}
+Give me insights on my ultrasound report.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading ECG report, please process it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my X-ray report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Schedule a MRI for this Friday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'this Friday'}"
+I need to cancel my X-ray on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my ECG report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+Need a X-ray scheduled today.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'today'}"
+I need to cancel my blood test on today.,cancel_test,{'TIME': 'today'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my X-ray report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Need a CT scan scheduled tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+I need to cancel my X-ray on next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my CT scan report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Schedule a CT scan for last Monday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+I won't be available for my ECG test next month.,cancel_test,{'TIME': 'next month'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+Please arrange a blood test test today.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'today'}"
+Cancel my blood test scheduled next week.,cancel_test,{'TIME': 'next week'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my blood report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on 10th February'}"
+Schedule a MRI for last Monday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my X-ray report for last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Need a ECG scheduled today.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'today'}"
+Can you cancel my test today?,cancel_test,{'TIME': 'today'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my ultrasound report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+Please arrange a ECG test day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+Can you cancel my test on 15th March?,cancel_test,{'TIME': 'on 15th March'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my blood report from last week?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+I want to book a ECG appointment next week.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next week'}"
+Cancel my CT scan scheduled tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Find my ECG report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+I need a X-ray on today.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'today'}"
+Cancel my X-ray scheduled next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+I need my X-ray report from last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Need a ECG scheduled next week.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next week'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Find my MRI report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Need a ultrasound scheduled today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on 10th February'}"
+Can I get a X-ray next month?,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+I won't be available for my ECG test today.,cancel_test,{'TIME': 'today'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my X-ray report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+I need a MRI on this Friday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'this Friday'}"
+Please remove my appointment today.,cancel_test,{'TIME': 'today'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my CT scan report.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+I need a CT scan on day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my CT scan report and provide feedback.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my CT scan report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Need a MRI scheduled on 15th March.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'on 15th March'}"
+I need to cancel my MRI on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my X-ray report results.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my blood report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on 10th February'}"
+Please arrange a CT scan test day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+Can you cancel my test next week?,cancel_test,{'TIME': 'next week'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading ECG report, please process it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my ECG report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I want to book a ECG appointment day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+Cancel my ECG scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Find my ECG report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+Can I get a blood test day after tomorrow?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'day after tomorrow'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my X-ray report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+I need a MRI on tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my CT scan report from last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Please arrange a ECG test next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my ECG report.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my CT scan report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Please arrange a CT scan test next week.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next week'}"
+I need to cancel my ECG on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my CT scan report for last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Need a ultrasound scheduled today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+Can you cancel my test last Monday?,cancel_test,{'TIME': 'last Monday'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my CT scan report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Schedule a blood test for this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+I need to cancel my ECG on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my X-ray report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Please arrange a X-ray test today.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'today'}"
+I need to cancel my X-ray on this Friday.,cancel_test,{'TIME': 'this Friday'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my CT scan report from last month.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Please arrange a ECG test tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'tomorrow'}"
+I need to cancel my CT scan on last Monday.,cancel_test,{'TIME': 'last Monday'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+Need a ultrasound scheduled on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+Can I get a ECG next month?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Cancel my MRI scheduled last Monday.,cancel_test,{'TIME': 'last Monday'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+I want to book a CT scan appointment tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my ECG report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+Can I get a blood test on 15th March?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'on 15th March'}"
+Cancel my CT scan scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+Please arrange a X-ray test on 15th March.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'on 15th March'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+Schedule a MRI for day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+I need to cancel my ECG on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my X-ray report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+I need a ultrasound on this Friday.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'this Friday'}"
+I won't be available for my MRI test last Monday.,cancel_test,{'TIME': 'last Monday'}
+What does my blood report say?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my blood report from last week.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Need a ultrasound scheduled today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+What does my MRI report say?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my ultrasound report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+Can I get a CT scan day after tomorrow?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+Cancel my CT scan scheduled tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my X-ray report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+I need a ECG on last Monday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'last Monday'}"
+I need to cancel my ECG on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Check my CT scan report and provide feedback.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my X-ray report for last month.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last month'}"
+I need a ultrasound on tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+Cancel my ultrasound scheduled today.,cancel_test,{'TIME': 'today'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my ultrasound report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Schedule a X-ray for last Monday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'last Monday'}"
+I won't be available for my blood test test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my ultrasound report.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my ultrasound report from last month?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Need a blood test scheduled next week.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next week'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my X-ray report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+I want to book a blood test appointment this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+Cancel my CT scan scheduled next week.,cancel_test,{'TIME': 'next week'}
+Check my ultrasound report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Can I get a blood test day after tomorrow?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'day after tomorrow'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my X-ray report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+I want to book a ultrasound appointment day after tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'day after tomorrow'}"
+Can you cancel my test last Monday?,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Find my X-ray report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+I want to book a CT scan appointment next month.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next month'}"
+Please remove my appointment this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Find my CT scan report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Please arrange a X-ray test last Monday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'last Monday'}"
+Cancel my X-ray scheduled today.,cancel_test,{'TIME': 'today'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my MRI report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+I want to book a ECG appointment next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Cancel my X-ray scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my ECG report from last week.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+I want to book a X-ray appointment last Monday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'last Monday'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Give me insights on my ECG report.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my CT scan report for last month.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Can I get a ECG next month?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my ECG report.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ECG report for last week.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+Need a CT scan scheduled tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+I need to cancel my CT scan on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Find my MRI report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+Please arrange a ultrasound test tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'tomorrow'}"
+I need to cancel my MRI on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Interpret my X-ray report results.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my ECG report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I want to book a ECG appointment this Friday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'this Friday'}"
+I won't be available for my blood test test today.,cancel_test,{'TIME': 'today'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Please arrange a blood test test this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+I won't be available for my X-ray test next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my ECG report.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my CT scan report from last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Schedule a ECG for this Friday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'this Friday'}"
+Cancel my blood test scheduled on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+What does my MRI report say?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my ultrasound report.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+Please arrange a X-ray test on 15th March.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'on 15th March'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my X-ray report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+I need a ultrasound on next week.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'next week'}"
+I need to cancel my ultrasound on today.,cancel_test,{'TIME': 'today'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my blood report for last week.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+I need a ECG on last Monday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'last Monday'}"
+I need to cancel my MRI on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Find my MRI report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Need a X-ray scheduled next week.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next week'}"
+Cancel my MRI scheduled next week.,cancel_test,{'TIME': 'next week'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+I want to book a ultrasound appointment today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my blood report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on 10th February'}"
+Need a ECG scheduled day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Find my ECG report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+I want to book a X-ray appointment next month.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+I need to cancel my MRI on last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my X-ray report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Need a CT scan scheduled day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+I need to cancel my blood test on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my CT scan report to my records.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my X-ray report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Need a blood test scheduled next month.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next month'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my X-ray report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Need a ultrasound scheduled on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+I won't be available for my MRI test this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my X-ray report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Need a blood test scheduled day after tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'day after tomorrow'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my MRI report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+Need a X-ray scheduled tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'tomorrow'}"
+Please remove my appointment next week.,cancel_test,{'TIME': 'next week'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my X-ray report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Can I get a X-ray today?,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'today'}"
+Please remove my appointment day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+I need my CT scan report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+I need a MRI on last Monday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my blood report from last month?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Need a CT scan scheduled today.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'today'}"
+I need to cancel my blood test on next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my blood report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+I want to book a X-ray appointment next month.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+I won't be available for my ECG test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ECG report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I need a blood test on tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'tomorrow'}"
+Cancel my CT scan scheduled last Monday.,cancel_test,{'TIME': 'last Monday'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+I need my blood report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+I need a X-ray on day after tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'day after tomorrow'}"
+I need to cancel my MRI on this Friday.,cancel_test,{'TIME': 'this Friday'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my ultrasound report.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Can I get a MRI tomorrow?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+I need to cancel my ultrasound on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last month'}"
+Need a MRI scheduled day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+I need to cancel my X-ray on this Friday.,cancel_test,{'TIME': 'this Friday'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my X-ray report from last week?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Schedule a CT scan for on 15th March.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'on 15th March'}"
+Cancel my ultrasound scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my X-ray report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Please arrange a CT scan test last Monday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+I won't be available for my ultrasound test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my ECG report.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my ECG report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+Schedule a MRI for day after tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'day after tomorrow'}"
+I won't be available for my ultrasound test next week.,cancel_test,{'TIME': 'next week'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my blood report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Please arrange a blood test test day after tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'day after tomorrow'}"
+Can you cancel my test next week?,cancel_test,{'TIME': 'next week'}
+Check my CT scan report and provide feedback.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my CT scan report to my records.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Retrieve my ultrasound report for last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Need a MRI scheduled next month.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next month'}"
+I need to cancel my X-ray on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my blood report from last week?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Please arrange a ECG test next week.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next week'}"
+Cancel my MRI scheduled next week.,cancel_test,{'TIME': 'next week'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my MRI report for last week.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Need a ultrasound scheduled on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my CT scan report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+Schedule a CT scan for day after tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+I need to cancel my CT scan on next month.,cancel_test,{'TIME': 'next month'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my CT scan report.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my ECG report from last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+I need a MRI on next month.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next month'}"
+I won't be available for my CT scan test next week.,cancel_test,{'TIME': 'next week'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my ultrasound report.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my ECG report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+I need a MRI on next week.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next week'}"
+I won't be available for my X-ray test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my X-ray report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+Schedule a CT scan for tomorrow.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'tomorrow'}"
+Cancel my CT scan scheduled today.,cancel_test,{'TIME': 'today'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on 10th February'}"
+Need a X-ray scheduled tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'tomorrow'}"
+I won't be available for my X-ray test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my CT scan report from last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+I want to book a CT scan appointment last Monday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+Cancel my blood test scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Find my CT scan report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+I want to book a ultrasound appointment today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+Cancel my X-ray scheduled next month.,cancel_test,{'TIME': 'next month'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my X-ray report recorded on last week.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Can I get a blood test day after tomorrow?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'day after tomorrow'}"
+I need to cancel my ultrasound on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on March 5th'}"
+Schedule a blood test for this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Interpret my CT scan report results.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my ultrasound report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+Need a MRI scheduled tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my MRI report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on 10th February'}"
+I need a blood test on today.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'today'}"
+Can you cancel my test next week?,cancel_test,{'TIME': 'next week'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my MRI report from last week.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+I want to book a X-ray appointment tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'tomorrow'}"
+I need to cancel my CT scan on next week.,cancel_test,{'TIME': 'next week'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Retrieve my CT scan report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Please arrange a blood test test today.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'today'}"
+Cancel my X-ray scheduled next month.,cancel_test,{'TIME': 'next month'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading ECG report, please process it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my blood report from last week.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Can I get a MRI next week?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next week'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Give me insights on my ultrasound report.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my ultrasound report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+I need a ECG on day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+I need to cancel my X-ray on next month.,cancel_test,{'TIME': 'next month'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my CT scan report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+I want to book a ultrasound appointment this Friday.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'this Friday'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my X-ray report results.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+Need a MRI scheduled today.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'today'}"
+I won't be available for my CT scan test next week.,cancel_test,{'TIME': 'next week'}
+Check my ultrasound report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my blood report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+Please arrange a X-ray test this Friday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'this Friday'}"
+Please remove my appointment day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+Schedule a blood test for next week.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next week'}"
+Can you cancel my test last Monday?,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my ultrasound report.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Please arrange a X-ray test today.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'today'}"
+Cancel my ECG scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my ultrasound report.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Can I get my CT scan report from last month?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+I want to book a CT scan appointment next week.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next week'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my ultrasound report.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my X-ray report from last week?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+I want to book a ECG appointment today.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'today'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my X-ray report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Please arrange a ECG test on 15th March.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'on 15th March'}"
+I won't be available for my ECG test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my ultrasound report from last month?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+Need a MRI scheduled on 15th March.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'on 15th March'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my X-ray report to my records.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my CT scan report from last week?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+I want to book a MRI appointment tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my X-ray report from last week?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Schedule a ECG for tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'tomorrow'}"
+I won't be available for my CT scan test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my MRI report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on 10th February'}"
+I want to book a ultrasound appointment today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my ECG report.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Please arrange a ultrasound test on 15th March.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'on 15th March'}"
+Can you cancel my test today?,cancel_test,{'TIME': 'today'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+Can I get a blood test last Monday?,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'last Monday'}"
+Can you cancel my test on 15th March?,cancel_test,{'TIME': 'on 15th March'}
+Interpret my ultrasound report results.,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my X-ray report for last month.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last month'}"
+I want to book a MRI appointment last Monday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+I need to cancel my ultrasound on next month.,cancel_test,{'TIME': 'next month'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Save my ECG report to my records.,upload_record,{'REPORT_TYPE': 'ECG report'}
+Can I get my X-ray report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+I want to book a MRI appointment today.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'today'}"
+Can you cancel my test this Friday?,cancel_test,{'TIME': 'this Friday'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Uploading ECG report, please process it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my blood report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+I need a MRI on last Monday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'last Monday'}"
+Cancel my MRI scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my X-ray report from on March 5th?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+Please arrange a ECG test next month.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'next month'}"
+I won't be available for my ultrasound test this Friday.,cancel_test,{'TIME': 'this Friday'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last month'}"
+Schedule a CT scan for next month.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next month'}"
+I need to cancel my MRI on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+I want to upload my X-ray report.,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Find my ECG report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'yesterday'}"
+Need a blood test scheduled this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+Please remove my appointment today.,cancel_test,{'TIME': 'today'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Retrieve my ECG report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+Need a ECG scheduled tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'tomorrow'}"
+I won't be available for my CT scan test next month.,cancel_test,{'TIME': 'next month'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my CT scan report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on 10th February'}"
+Need a X-ray scheduled today.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'today'}"
+I won't be available for my X-ray test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my blood report.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'yesterday'}"
+Can I get a ECG on 15th March?,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'on 15th March'}"
+I won't be available for my blood test test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+What does my X-ray report say?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+I want to upload my ultrasound report.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my CT scan report from last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Please arrange a blood test test today.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'today'}"
+Please remove my appointment next month.,cancel_test,{'TIME': 'next month'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Schedule a blood test for on 15th March.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'on 15th March'}"
+I won't be available for my ultrasound test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Check my blood report and provide feedback.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Retrieve my blood report for last week.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Schedule a MRI for tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+Cancel my ECG scheduled tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my CT scan report.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+Can I get a MRI next month?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next month'}"
+Please remove my appointment day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my X-ray report.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my X-ray report from last week?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Schedule a CT scan for next month.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next month'}"
+I need to cancel my CT scan on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my MRI report?,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Uploading blood report, please process it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Find my blood report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Schedule a ECG for on 15th March.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'on 15th March'}"
+I need to cancel my MRI on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Interpret my MRI report results.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my ultrasound report for last week.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+Can I get a CT scan next week?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next week'}"
+I need to cancel my CT scan on next week.,cancel_test,{'TIME': 'next week'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my blood report from last week?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Need a CT scan scheduled last Monday.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+Please remove my appointment next week.,cancel_test,{'TIME': 'next week'}
+Can you analyze my blood report?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading MRI report, please process it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Find my X-ray report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+Need a MRI scheduled tomorrow.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'tomorrow'}"
+Cancel my X-ray scheduled last Monday.,cancel_test,{'TIME': 'last Monday'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my ECG report from last month?,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+Schedule a X-ray for day after tomorrow.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'day after tomorrow'}"
+Please remove my appointment next week.,cancel_test,{'TIME': 'next week'}
+What does my ultrasound report say?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+I want to upload my ultrasound report.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+I need my ultrasound report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on March 5th'}"
+Need a ultrasound scheduled today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+I won't be available for my ECG test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my X-ray report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on 10th February'}"
+Need a X-ray scheduled last Monday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'last Monday'}"
+Cancel my MRI scheduled next week.,cancel_test,{'TIME': 'next week'}
+What does my blood report say?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading X-ray report, please process it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Schedule a CT scan for next month.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next month'}"
+Cancel my ECG scheduled last Monday.,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Find my MRI report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on March 5th'}"
+Can I get a CT scan day after tomorrow?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'day after tomorrow'}"
+I need to cancel my CT scan on this Friday.,cancel_test,{'TIME': 'this Friday'}
+Can you analyze my X-ray report?,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my X-ray report from last week?,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last week'}"
+Schedule a ECG for on 15th March.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'on 15th March'}"
+Please remove my appointment day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my CT scan report from last week.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last week'}"
+Can I get a ultrasound today?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+Please remove my appointment today.,cancel_test,{'TIME': 'today'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+"Here is my ECG report, please store it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+Find my ultrasound report recorded on last month.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last month'}"
+I need a blood test on today.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'today'}"
+Cancel my blood test scheduled today.,cancel_test,{'TIME': 'today'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+Fetch my ECG report.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last week'}"
+Schedule a blood test for next week.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'next week'}"
+I won't be available for my ultrasound test today.,cancel_test,{'TIME': 'today'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my MRI report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+Schedule a blood test for on 15th March.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'on 15th March'}"
+I need to cancel my blood test on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+What does my CT scan report say?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Find my ECG report recorded on on March 5th.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on March 5th'}"
+I want to book a ultrasound appointment today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+I won't be available for my X-ray test tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Can you analyze my ECG report?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Can I get my MRI report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+Schedule a CT scan for next month.,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'next month'}"
+Cancel my ultrasound scheduled today.,cancel_test,{'TIME': 'today'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my blood report for last month.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last month'}"
+Schedule a X-ray for next week.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next week'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my CT scan report for on March 5th.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+I want to book a MRI appointment on 15th March.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'on 15th March'}"
+I need to cancel my blood test on day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my ECG report from last month.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'last month'}"
+I want to book a ultrasound appointment this Friday.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'this Friday'}"
+I won't be available for my CT scan test today.,cancel_test,{'TIME': 'today'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Uploading ECG report, please process it.",upload_record,{'REPORT_TYPE': 'ECG report'}
+I need my ECG report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ECG report', 'DATE': 'on 10th February'}"
+Schedule a blood test for this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+Please remove my appointment tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Give me insights on my MRI report.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+Save my ultrasound report to my records.,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+Please arrange a ECG test tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'tomorrow'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+Interpret my ECG report results.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Here is my MRI report, please store it.",upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my ultrasound report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'yesterday'}"
+Please arrange a ultrasound test day after tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'day after tomorrow'}"
+Can you cancel my test tomorrow?,cancel_test,{'TIME': 'tomorrow'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+"Uploading ultrasound report, please process it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my MRI report for yesterday.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'yesterday'}"
+Please arrange a MRI test this Friday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'this Friday'}"
+Cancel my ultrasound scheduled day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my X-ray report?,upload_record,{'REPORT_TYPE': 'X-ray report'}
+Fetch my MRI report.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Need a ECG scheduled today.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'today'}"
+Please remove my appointment day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my ultrasound report?,analyze_report,{'REPORT_TYPE': 'ultrasound report'}
+Can I upload my blood report?,upload_record,{'REPORT_TYPE': 'blood report'}
+Fetch my ultrasound report.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+I need a ultrasound on day after tomorrow.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'day after tomorrow'}"
+I won't be available for my X-ray test day after tomorrow.,cancel_test,{'TIME': 'day after tomorrow'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my MRI report to my records.,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my CT scan report from on March 5th.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'on March 5th'}"
+Can I get a ultrasound today?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+Cancel my X-ray scheduled next month.,cancel_test,{'TIME': 'next month'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my X-ray report, please store it.",upload_record,{'REPORT_TYPE': 'X-ray report'}
+Can I get my blood report from last week?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'last week'}"
+Please arrange a ultrasound test this Friday.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'this Friday'}"
+Cancel my CT scan scheduled next week.,cancel_test,{'TIME': 'next week'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Save my CT scan report to my records.,upload_record,{'REPORT_TYPE': 'CT scan report'}
+Can I get my blood report from on 10th February?,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on 10th February'}"
+Can I get a X-ray next month?,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'next month'}"
+Cancel my ultrasound scheduled this Friday.,cancel_test,{'TIME': 'this Friday'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my CT scan report, please store it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my blood report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'blood report', 'DATE': 'on 10th February'}"
+I need a X-ray on this Friday.,book_test,"{'TEST_TYPE': 'X-ray', 'TIME': 'this Friday'}"
+I need to cancel my CT scan on next week.,cancel_test,{'TIME': 'next week'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my CT scan report from last month?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'last month'}"
+Can I get a ultrasound next week?,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'next week'}"
+Please remove my appointment last Monday.,cancel_test,{'TIME': 'last Monday'}
+Give me insights on my CT scan report.,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+Can I upload my ultrasound report?,upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'on March 5th'}"
+I need a MRI on this Friday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'this Friday'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Interpret my blood report results.,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Uploading CT scan report, please process it.",upload_record,{'REPORT_TYPE': 'CT scan report'}
+Fetch my X-ray report.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'last month'}"
+Need a MRI scheduled next month.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'next month'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Check my X-ray report and provide feedback.,analyze_report,{'REPORT_TYPE': 'X-ray report'}
+"Here is my ultrasound report, please store it.",upload_record,{'REPORT_TYPE': 'ultrasound report'}
+Retrieve my MRI report for last week.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'last week'}"
+Can I get a CT scan last Monday?,book_test,"{'TEST_TYPE': 'CT scan', 'TIME': 'last Monday'}"
+Can you cancel my test next month?,cancel_test,{'TIME': 'next month'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+Retrieve my ultrasound report for last week.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+I want to book a ECG appointment last Monday.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'last Monday'}"
+I need to cancel my ECG on tomorrow.,cancel_test,{'TIME': 'tomorrow'}
+Check my MRI report and provide feedback.,analyze_report,{'REPORT_TYPE': 'MRI report'}
+I want to upload my blood report.,upload_record,{'REPORT_TYPE': 'blood report'}
+I need my ultrasound report from last week.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+I need a blood test on this Friday.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'this Friday'}"
+Please remove my appointment today.,cancel_test,{'TIME': 'today'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my CT scan report?,upload_record,{'REPORT_TYPE': 'CT scan report'}
+I need my X-ray report from yesterday.,retrieve_record,"{'REPORT_TYPE': 'X-ray report', 'DATE': 'yesterday'}"
+Schedule a ultrasound for today.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'today'}"
+I won't be available for my ECG test on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+I want to upload my MRI report.,upload_record,{'REPORT_TYPE': 'MRI report'}
+I need my MRI report from on 10th February.,retrieve_record,"{'REPORT_TYPE': 'MRI report', 'DATE': 'on 10th February'}"
+I need a ECG on day after tomorrow.,book_test,"{'TEST_TYPE': 'ECG', 'TIME': 'day after tomorrow'}"
+Cancel my MRI scheduled next month.,cancel_test,{'TIME': 'next month'}
+Check my ECG report and provide feedback.,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my ECG report?,upload_record,{'REPORT_TYPE': 'ECG report'}
+Retrieve my ultrasound report for on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+Can I get a MRI this Friday?,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'this Friday'}"
+Please remove my appointment on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+What does my blood report say?,analyze_report,{'REPORT_TYPE': 'blood report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+I need my ultrasound report from last week.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'last week'}"
+I want to book a blood test appointment tomorrow.,book_test,"{'TEST_TYPE': 'blood test', 'TIME': 'tomorrow'}"
+I need to cancel my X-ray on on 15th March.,cancel_test,{'TIME': 'on 15th March'}
+Can you analyze my CT scan report?,analyze_report,{'REPORT_TYPE': 'CT scan report'}
+"Here is my blood report, please store it.",upload_record,{'REPORT_TYPE': 'blood report'}
+Find my ultrasound report recorded on on 10th February.,retrieve_record,"{'REPORT_TYPE': 'ultrasound report', 'DATE': 'on 10th February'}"
+I need a MRI on this Friday.,book_test,"{'TEST_TYPE': 'MRI', 'TIME': 'this Friday'}"
+Cancel my CT scan scheduled today.,cancel_test,{'TIME': 'today'}
+Give me insights on my blood report.,analyze_report,{'REPORT_TYPE': 'blood report'}
+Save my blood report to my records.,upload_record,{'REPORT_TYPE': 'blood report'}
+Find my CT scan report recorded on yesterday.,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
+Schedule a ultrasound for this Friday.,book_test,"{'TEST_TYPE': 'ultrasound', 'TIME': 'this Friday'}"
+Can you cancel my test day after tomorrow?,cancel_test,{'TIME': 'day after tomorrow'}
+What does my ECG report say?,analyze_report,{'REPORT_TYPE': 'ECG report'}
+Can I upload my MRI report?,upload_record,{'REPORT_TYPE': 'MRI report'}
+Can I get my CT scan report from yesterday?,retrieve_record,"{'REPORT_TYPE': 'CT scan report', 'DATE': 'yesterday'}"
